@@ -1,0 +1,21 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+
+# Data and Logs
+*.log
+data/raw/
+outputs/models/*.pkl
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Database & IDE
+.vscode/
+.idea/
+*.sqlite3
